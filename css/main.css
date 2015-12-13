@@ -1,0 +1,170 @@
+/* 
+   
+© 2015-2016 TheLazyDev(Bhavarsh Singh) 
+Its The Local CSS File which is used to Style Every Components of The website 
+Media Queries are also used To Make website Mobile Camptiable
+
+
+*/
+
+/* Done to overwrite WebPage Size */
+html,
+body {
+    margin: 0;
+    height: 100%;
+} 
+
+.typed-cursor {
+    text-align:
+} /* Place Holder*/
+
+
+/*  styles for First Div with an id of topContainer*/
+#topContainer {
+    width: 100%;
+    background-color: cornflowerblue;
+} 
+
+
+/* Styles For Div with an id of topRow  */
+#topRow {
+    margin-top: 100px;
+}
+/* Styles For Welcome Text in First Div*/
+h1 {
+    color: white;
+}
+/* styles For Introdcution heading  */
+#secondtext {
+    margin-top:50px;
+    color: black;
+}
+
+/* Styles To center any component on website */
+.center {
+    text-align: center;
+}
+
+/* Styles for intro text of weather baba */
+#introaboutbaba {
+    margin-top: 10px;
+    padding-bottom:50px;
+    
+}
+/* styles for third div */
+#baba {
+    background-image: url(http://s16.postimg.org/e5akk5x1h/background.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+/* Styles For Baba Avator */
+.img-responsive {
+    margin-top: 150px;
+    height: 220px;
+    width: 180px;
+    display: none;
+    margin-left: 400px;
+}
+/* Styles for Button Give Darshan Baba */
+#button {
+    margin-left: 20px;
+    float: left;
+    margin-top: 150px;
+}
+/* Styles For Welcome text By Baba To visitor*/
+#babajiwelcome {
+    font-size: 30px;
+    margin-left: 525px;
+    color: white;
+    display: none;
+}
+
+/* Styles For Welcome text By Baba To visitor*/
+#babajiwords {
+    font-size: 30px;
+    margin-left: 250px;
+    color: white;
+    display: none;
+}
+
+.form-horizontal {
+    margin-left: 400px;
+    margin-top: 50px;
+    width: 600px;
+    font-size: 20px;
+}
+
+.form-group {
+    color: whitesmoke;
+    display: none;
+    width: 600px;
+}
+
+/* Styles for div with an id of msg*/
+#msg {
+    display: none;
+}
+
+/* Styles for div with a class of alert it used so that these divs are not displayed web page is loaded */
+.alert {
+    display: none;
+}
+
+#nocity {
+    display: block;
+}/* place holder*/
+
+/* copyright text */
+#info {
+    padding: 10px;
+    text-align: center;
+} 
+
+/* Styles for some components of website when screen is of 500px */
+@media screen and (max-width: 500px) {
+    #button {
+        margin-left: 100px;
+    }
+    #toggle {
+        margin-left: 100px;
+    }
+    #babajiwelcome {
+        margin-left: 40px;
+    }
+    #babajiwords {
+        margin-left: 40px;
+    }
+    .form-group {
+        margin-left: 50px;
+        width: 300px;
+    }
+    .form-horizontal {
+        width: 300px;
+        margin-left: 40px;
+    }
+}
+
+/* Styles for some components of website when screen is of 550px */
+@media screen and (max-width: 550px) {
+    #button {
+        margin-left: 100px;
+    }
+    #toggle {
+        margin-left: 100px;
+    }
+    #babajiwelcome {
+        margin-left: 40px;
+    }
+    #babajiwords {
+        margin-left: 40px;
+    }
+    .form-group {
+        margin-left: 50px;
+        width: 300px;
+    }
+    .form-horizontal {
+        width: 300px;
+        margin-left: 40px;
+    }
+}
