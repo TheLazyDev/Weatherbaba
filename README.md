@@ -2,6 +2,10 @@
 Source code My weather predictor "Weather baba"
 
 Website Link:- http://weatherbaba.thelazydev1997.xyz/
+
+
+
+
 Its a simple weather predictor App which I learned while learning Php from udemy.com then I recreated This app with my Ideas main script uses weather-forecast.com's link to get weather update of cities around the world given by user
 
 
